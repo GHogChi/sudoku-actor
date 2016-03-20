@@ -7,14 +7,18 @@ import scala.collection.mutable
   * every successful exclusion ratchets down the uncertainty
   * until there is only one.
   */
-class CellState(n: Int) {
-  val intrinsicallyPossibleValues = n
+class CellPotentials(n: Int) {
+  val numberOfIntrinsicallyPossibleValues = n
   var fixedValue: Option[Int] = None
   val possibleValues = new mutable.HashSet[Int]()
   reset
 
   def reset: Unit = {
-    (1 to intrinsicallyPossibleValues).foreach(possibleValues += _)
+    if (numberOfIntrinsicallyPossibleValues == 1){
+      possibleValues += 1
+      fixTheValue
+    }
+    (1 to numberOfIntrinsicallyPossibleValues).foreach(possibleValues += _)
   }
 
   def exclude(i: Int) = {

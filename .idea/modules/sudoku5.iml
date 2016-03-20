@@ -20,6 +20,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/resolution-cache" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/streams" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/test-reports" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -66,10 +67,7 @@
     <orderEntry type="library" name="SBT: xerces:xercesImpl:2.11.0:jar" level="project" />
     <orderEntry type="library" name="SBT: xml-apis:xml-apis:1.4.01:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-xml_2.11:1.0.4:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scalamock:scalamock-core_2.11:3.2.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scalamock:scalamock-scalatest-support_2.11:3.2.2:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scalactic:scalactic_2.11:3.0.0-M15:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scalatest:scalatest_2.11:2.2.4:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scalatest:scalatest_2.11:3.0.0-M15:jar" level="project" />
   </component>
   <component name="org.twodividedbyzero.idea.findbugs">
