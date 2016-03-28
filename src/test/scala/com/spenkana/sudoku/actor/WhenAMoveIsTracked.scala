@@ -30,6 +30,7 @@ import org.scalatest.FunSpec
   * Okay - event source it all. Every user action and every state change kept in
   * a data structure to the end of the game. Undoable.
   */
+//TODO implement a delay based on the mean time btw message receipts - to catch possible stragglers.
 class WhenAMoveIsTracked extends FunSpec with MockFactory {
   describe("and a single path starts") {
     it("does not trigger completion") {
