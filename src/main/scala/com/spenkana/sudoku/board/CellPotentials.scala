@@ -1,4 +1,4 @@
-package com.spenkana.sudoku.actor
+package com.spenkana.sudoku.board
 
 /**
   * Created by tomcat on 3/13/16.

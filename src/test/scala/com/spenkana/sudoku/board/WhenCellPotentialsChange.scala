@@ -1,4 +1,4 @@
-package com.spenkana.sudoku.actor
+package com.spenkana.sudoku.board
 
 import org.scalatest.FunSpec
 
